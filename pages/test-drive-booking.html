@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Drive Booking | Sean's Elite Motors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sean's Elite Motors</h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="car-details.html">Car Details</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="test-drive-booking.html">Test Drive Booking</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="compare-cars.html">Compare Cars</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Book a Test Drive</h2>
+      <p>Fill out the form below to request a test drive appointment.</p>
+
+      <form>
+        <p>
+          <label for="name">Full Name:</label><br />
+          <input type="text" id="name" name="name" />
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" />
+        </p>
+
+        <p>
+          <label for="phone">Phone Number:</label><br />
+          <input type="tel" id="phone" name="phone" />
+        </p>
+
+        <p>
+          <label for="vehicle">Vehicle of Interest:</label><br />
+          <select id="vehicle" name="vehicle">
+            <option>Ferrari 488 Pista</option>
+            <option>Lamborghini Huracan EVO</option>
+            <option>Porsche 911 Turbo S</option>
+            <option>Mercedes-Benz S-Class</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="date">Preferred Date:</label><br />
+          <input type="date" id="date" name="date" />
+        </p>
+
+        <p>
+          <label for="message">Additional Notes:</label><br />
+          <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Submit Request</button>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compare Cars | Sean's Elite Motors</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sean's Elite Motors</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="test-drive-booking.html">Book Test Drive</a>
+        <a href="compare-cars.html">Compare</a>
+        <a href="finance-calculator.html">Financing</a>
+        <a href="reviews.html">Reviews</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Compare Our Supercars</h2>
+      <p>
+        Select up to three vehicles to compare their specifications
+        side-by-side.
+      </p>
+
+      <div class="compare-controls">
+        <select id="select1" class="car-selector">
+          <option value="">Select Car 1</option>
+        </select>
+        <select id="select2" class="car-selector">
+          <option value="">Select Car 2</option>
+        </select>
+        <select id="select3" class="car-selector">
+          <option value="">Select Car 3</option>
+        </select>
+      </div>
+
+      <table
+        id="comparison-table"
+        border="1"
+        style="width: 100%; margin-top: 20px; text-align: center"
+      >
+        <thead>
+          <tr id="table-header">
+            <th>Feature</th>
+            <th id="name1">-</th>
+            <th id="name2">-</th>
+            <th id="name3">-</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Horsepower</strong></td>
+            <td id="hp1">-</td>
+            <td id="hp2">-</td>
+            <td id="hp3">-</td>
+          </tr>
+          <tr>
+            <td><strong>Engine</strong></td>
+            <td id="engine1">-</td>
+            <td id="engine2">-</td>
+            <td id="engine3">-</td>
+          </tr>
+          <tr>
+            <td><strong>Top Speed</strong></td>
+            <td id="speed1">-</td>
+            <td id="speed2">-</td>
+            <td id="speed3">-</td>
+          </tr>
+          <tr>
+            <td><strong>Price</strong></td>
+            <td id="price1">-</td>
+            <td id="price2">-</td>
+            <td id="price3">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <script src="js/compare.js"></script>
+  </body>
+</html>

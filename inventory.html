@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory | Sean's Elite Motors</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sean's Elite Motors</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="test-drive-booking.html">Book Test Drive</a>
+        <a href="compare-cars.html">Compare</a>
+        <a href="finance-calculator.html">Financing</a>
+        <a href="reviews.html">Reviews</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Our Supercar Inventory</h2>
+
+      <section class="filters">
+        <label for="sortPrice">Sort by Price:</label>
+        <select id="sortPrice">
+          <option value="default">Select...</option>
+          <option value="low-high">Low to High</option>
+          <option value="high-low">High to Low</option>
+        </select>
+
+        <label for="filterBrand">Brand:</label>
+        <select id="filterBrand">
+          <option value="all">All Brands</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lamborghini">Lamborghini</option>
+          <option value="Porsche">Porsche</option>
+          <option value="Mercedes-Benz">Mercedes-Benz</option>
+        </select>
+      </section>
+
+      <div id="car-container" class="inventory-grid"></div>
+    </main>
+
+    <script src="js/inventory.js"></script>
+  </body>
+</html>
